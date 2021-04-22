@@ -9,16 +9,16 @@ const Nav = () => {
             <div className="nav_links">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#skill">Skill</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a href="#Education">Education</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#Contact">Contact</a>
                     </li>
                     
                 </ul>

@@ -1,0 +1,79 @@
+.skills{
+    margin-top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skill__heading>h4{
+    color: #26a375;
+    position: relative;
+}
+.skill__heading>h4::after{
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 15px;
+    background:  #26a375;
+    left: 3px;
+}
+.skill__heading>h4::before{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 5px;
+    background: #26a375;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+.skills__card{
+    display: flex;
+    /* align-items: center; */
+    max-height: 150px;
+}
+.skills_card_media{
+    flex: 0.4;
+    height: auto;
+}
+.skills_card_content{
+    flex: 0.6;
+}
+.skills_card_content_title{
+    color: #26a375;
+    font-family: 'Karantina', cursive !important;
+    font-size: x-large !important;
+    letter-spacing: 3px !important;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 5px !important;
+}
+.skills_card_content_title>.MuiIconButton-root:hover{
+    background-color: #a1ddc7;
+}
+.title_icon{
+    color: #f0ec81;
+    transition: 200ms color  ease-in !important;
+    cursor: pointer;
+}
+.title_icon:hover{
+    color: #f2d82e;
+    
+}
+.skills_card_content_des{
+    color: #26a375;
+    font-family: 'Zen Dots', cursive !important;
+    font-weight: 200 !important;
+    font-size: x-small !important;
+}
+.skills_card_rating>h4{
+    color: #29bb89;
+    font-family: 'Architects Daughter', cursive;
+    padding: 5px 0px;
+}
+.card_rating{
+    color: #e6dd3b;
+}
