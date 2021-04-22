@@ -32,7 +32,7 @@
 .skills__card{
     display: flex;
     /* align-items: center; */
-    max-height: 150px;
+    /* max-height: 150px; */
 }
 .skills_card_media{
     flex: 0.4;

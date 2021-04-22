@@ -37,10 +37,10 @@
 
 .nav_logo > span {
   color: #26a375;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Zen Dots", cursive !important;
   font-weight: 700;
   font-size: large;
-  letter-spacing: normal;
+  letter-spacing: 1px;
 }
 
 .nav_logo > span:hover {
