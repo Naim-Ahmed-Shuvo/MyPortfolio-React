@@ -2,6 +2,7 @@ import { Button, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import "../css/Nav.css";
 import Typical from "react-typical";
+import Hidden from '@material-ui/core/Hidden';
 
 //
 const Nav = () => {
@@ -45,6 +46,7 @@ const Nav = () => {
           </div>
         </Grid>
         <Grid item lg={6} md={6} container items="center" justify="center">
+          <Hidden smDown>
           <div className="nav_links">
             <ul>
               <li>About</li>
@@ -52,6 +54,7 @@ const Nav = () => {
               <li>Contact</li>
             </ul>
           </div>
+          </Hidden>
         </Grid>
         <Grid item lg={3} md={3} container justify="center">
           <Button className="nav_btn">Download CV</Button>
