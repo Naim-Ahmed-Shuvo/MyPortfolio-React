@@ -3,9 +3,12 @@ import React from "react";
 import "../css/Nav.css";
 import Typical from "react-typical";
 import Hidden from '@material-ui/core/Hidden';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import theme from './../theme';
 
 //
 const Nav = () => {
+  const matches = useMediaQuery(theme.breakpoints.down('sm'))
   return (
     // <div className="navbar">
     //     <div className="nav_logo">
@@ -34,7 +37,7 @@ const Nav = () => {
     // </div>
     <div className="navbar">
       <Grid container>
-        <Grid item lg={3} md={3} container items="center" justify="center">
+        <Grid item lg={3} md={3} container items="center" justify={`${matches ? 'center':'center'}`}>
           <div className="nav_logo">
             <Typography>
               Naim Ahmed{" "}
@@ -57,7 +60,9 @@ const Nav = () => {
           </Hidden>
         </Grid>
         <Grid item lg={3} md={3} container justify="center">
+          <Hidden smDown>
           <Button className="nav_btn">Download CV</Button>
+          </Hidden>
         </Grid>
       </Grid>
     </div>

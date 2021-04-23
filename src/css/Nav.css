@@ -32,6 +32,9 @@
   cursor: pointer;
 }
 
+.nav_logo{
+  margin-top: 13px;
+}
 
 .nav_logo > .MuiTypography-root {
   color: #37af83;
