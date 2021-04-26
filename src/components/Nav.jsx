@@ -35,7 +35,7 @@ const Nav = () => {
     //         <Button >Download CV 📰</Button>
     //     </div>
     // </div>
-    <div className="navbar">
+    <div className="navbar" >
       <Grid container>
         <Grid item lg={3} md={3} container items="center" justify={`${matches ? 'center':'center'}`}>
           <div className="nav_logo">
